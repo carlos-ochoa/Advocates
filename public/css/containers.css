@@ -1,0 +1,25 @@
+.flex-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-container-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-grow: 3;
+}
+
+.texto {
+	color: white;
+	text-align: center;
+}
+
+#canvas {
+                display: block;
+                margin: auto;
+                height: 600px;
+                width: 800px;
+            }
